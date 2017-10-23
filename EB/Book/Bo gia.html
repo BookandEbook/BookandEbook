@@ -11,20 +11,103 @@
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 <body>
-	<!-- Begin Menu -->
-	<nav class="navbar navbar-default" style="z-index: 10">
+	<nav class="navbar navbar-inverse" style="z-index: 10">
 		<div class="container-fluid">
 			<div class="navbar-header">
-				<a class="navbar-brand" href="#">WebSiteName</a>
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>                        
+				</button>
+				<a class="navbar-brand" href="#">Book&Ebook</a>
 			</div>
-			<ul class="nav navbar-nav">
-				<li class="active"><a href="#">Home</a></li>
-				<li><a href="#">Page 1</a></li>
-				<li><a href="#">Page 2</a></li>
-				<li><a href="#">Page 3</a></li>
-			</ul>
+			<div class="collapse navbar-collapse" id="myNavbar">
+				<ul class="nav navbar-nav">
+					<li class="active zoom zoomHeder"><a href="#">Home</a></li>
+					<li class="dropdown">
+						<a class="dropdown-toggle" data-toggle="dropdown" href="#" style="width: 100px; text-align: center;">BOOK<span class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<li><a href="kinhte.html">Kinh Tế</a></li>
+							<li><a href="#">Kỹ Năng Sống</a></li>
+							<li><a href="#">Kinh Doanh</a></li>
+						</ul>
+					</li>
+					<li class="dropdown">
+						<a class="dropdown-toggle" data-toggle="dropdown" href="#" style="width: 100px; text-align: center;">E-BOOK<span class="caret"></span></a>
+					<ul class="dropdown-menu">
+							<li><a href="#">Kinh Tế</a></li>
+							<li><a href="#">Kỹ Năng Sống</a></li>
+							<li><a href="#">Kinh Doanh</a></li>
+						</ul>
+					</li>
+					<li class="zoomHeder" style="font-size: 18px"><a href="#" >Review</a></li>
+				</ul>
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="#" id="id_sign_up" data-toggle="modal" data-target="#myModal"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+					<li><a href="#" data-toggle="modal" data-target="#myModal"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+				</ul>
+				<ul>
+					<div class="wrap">
+                     <div class="search">
+                       <input type="text" class="searchTerm" placeholder="Sách bạn muốn tìm kiếm?">
+                       <button type="submit" class="searchButton">
+                     <i class="fa fa-search"></i>
+                         </button>
+                     </div>
+                    </div>
+				</ul>	
+			</div>
 		</div>
 	</nav>
+	<!-- Begin Menu --><!--
+	<nav class="navbar navbar-default" style="z-index: 10;background-color: black">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>                        
+				</button>
+				<a class="navbar-brand" href="#">Book&Ebook</a>
+			</div>
+			<div class="collapse navbar-collapse" id="myNavbar">
+				<ul class="nav navbar-nav">
+					<li class="active zoom zoomHeder"><a href="#">Home</a></li>
+					<li class="dropdown">
+						<a class="dropdown-toggle" data-toggle="dropdown" href="#" style="width: 100px; text-align: center;">BOOK<span class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<li><a href="kinhte.html">Kinh Tế</a></li>
+							<li><a href="#">Kỹ Năng Sống</a></li>
+							<li><a href="#">Kinh Doanh</a></li>
+						</ul>
+					</li>
+					<li class="dropdown">
+						<a class="dropdown-toggle" data-toggle="dropdown" href="#" style="width: 100px; text-align: center;">E-BOOK<span class="caret"></span></a>
+					<ul class="dropdown-menu">
+							<li><a href="#">Kinh Tế</a></li>
+							<li><a href="#">Kỹ Năng Sống</a></li>
+							<li><a href="#">Kinh Doanh</a></li>
+						</ul>
+					</li>
+					<li class="zoomHeder"><a href="#" >Cộng đồng</a></li>
+				</ul>
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="#" id="id_sign_up" data-toggle="modal" data-target="#myModal"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+					<li><a href="#" data-toggle="modal" data-target="#myModal"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+				</ul>
+				<ul>
+					<div class="wrap">
+                     <div class="search">
+                       <input type="text" class="searchTerm" placeholder="Sách bạn muốn tìm kiếm?">
+                       <button type="submit" class="searchButton">
+                     <i class="fa fa-search"></i>
+                         </button>
+                     </div>
+                    </div>
+				</ul>	
+			</div>
+		</div>
+	</nav>-->
 	<!-- End menu-->
 	<div id="carousel-1" class="carousel slide" data-ride="carousel"  style="z-index: 50; margin-top: -25px">
 		<!-- Indicators -->
